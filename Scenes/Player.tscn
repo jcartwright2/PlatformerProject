@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://d0nnyawylv54o"]
+
+[ext_resource type="Script" uid="uid://caj2pb4tcaj01" path="res://Scripts/CharacterBody2d.cs" id="1_xhfnw"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_lhskg"]
+animations = [{
+"frames": [],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": 1,
+"name": &"new_animation",
+"speed": 5.0
+}]
+
+[node name="Player" type="CharacterBody2D" unique_id=35123929]
+script = ExtResource("1_xhfnw")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=606761520]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=234424042]
+sprite_frames = SubResource("SpriteFrames_lhskg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2066033917]

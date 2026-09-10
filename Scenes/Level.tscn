@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://bst6vu7bewcll"]
+
+[node name="Level" type="Node2D" unique_id=1602582843]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=649806730]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMapLayer" unique_id=1803151354]
