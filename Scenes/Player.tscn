@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://d0nnyawylv54o"]
 
-[ext_resource type="Script" uid="uid://caj2pb4tcaj01" path="res://Scripts/CharacterBody2d.cs" id="1_xhfnw"]
+[ext_resource type="Script" uid="uid://caj2pb4tcaj01" path="res://Scripts/CharacterBody2d.cs" id="1_rpqav"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_lhskg"]
 animations = [{
@@ -16,7 +16,7 @@ animations = [{
 }]
 
 [node name="Player" type="CharacterBody2D" unique_id=35123929]
-script = ExtResource("1_xhfnw")
+script = ExtResource("1_rpqav")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=606761520]
 
