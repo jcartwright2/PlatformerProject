@@ -5,6 +5,3 @@
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=649806730]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="TileMapLayer" unique_id=1803151354]
-
-[node name="Node2D" type="Node2D" parent="." unique_id=1496086113]
-position = Vector2(-304, 464.00003)
