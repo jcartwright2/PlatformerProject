@@ -145,8 +145,6 @@ animations = [{
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=649806730]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMapLayer" unique_id=1803151354]
-
 [node name="Double Jump" type="AnimatedSprite2D" parent="." unique_id=1278172792]
 sprite_frames = SubResource("SpriteFrames_qke16")
 frame_progress = 0.13709328
