@@ -1,10 +1,26 @@
 [gd_scene format=3 uid="uid://bst6vu7bewcll"]
 
+[ext_resource type="Texture2D" path="res://Assets/contents/tileset.png" id="1_0ba56"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vsvp5"]
+texture = ExtResource("1_0ba56")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_jehnt"]
+sources/0 = SubResource("TileSetAtlasSource_vsvp5")
+
 [node name="Level" type="Node2D" unique_id=1602582843]
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=649806730]
+tile_set = SubResource("TileSet_jehnt")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="TileMapLayer" unique_id=1803151354]
-
-[node name="Node2D" type="Node2D" parent="." unique_id=1496086113]
-position = Vector2(-304, 464.00003)
