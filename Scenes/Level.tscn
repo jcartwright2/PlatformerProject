@@ -142,19 +142,3 @@ animations = [{
 }]
 
 [node name="Level" type="Node2D" unique_id=1602582843]
-
-[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=649806730]
-
-[node name="Double Jump" type="AnimatedSprite2D" parent="." unique_id=1278172792]
-sprite_frames = SubResource("SpriteFrames_qke16")
-frame_progress = 0.13709328
-
-[node name="Idle" type="AnimatedSprite2D" parent="." unique_id=922309139]
-position = Vector2(-79, 0)
-sprite_frames = SubResource("SpriteFrames_irxln")
-frame_progress = 0.77635086
-
-[node name="SuperPowerCheat" type="AnimatedSprite2D" parent="." unique_id=814429824]
-position = Vector2(98, 1)
-sprite_frames = SubResource("SpriteFrames_2fq21")
-frame_progress = 0.5111587
