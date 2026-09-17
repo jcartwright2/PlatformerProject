@@ -1,3 +1,144 @@
 [gd_scene format=3 uid="uid://bst6vu7bewcll"]
 
+[ext_resource type="Texture2D" uid="uid://ciwoqrlu3suey" path="res://Assets/Cube/CHARACTERS/DR_DASH/亡 D double jump.png" id="1_0ba56"]
+[ext_resource type="Texture2D" uid="uid://cpb4sb4b5jw35" path="res://Assets/Cube/CHARACTERS/DR_DASH/亡 A idle.png" id="2_fuudy"]
+[ext_resource type="Texture2D" uid="uid://o2tara5fpbk3" path="res://Assets/Cube/CHARACTERS/DR_DASH/亡 I up norm.png" id="3_xylue"]
+[ext_resource type="Texture2D" uid="uid://dx6xsjtpn3bog" path="res://Assets/Cube/CHARACTERS/DR_DASH/亡 N down air.png" id="4_tj5wv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vsvp5"]
+atlas = ExtResource("1_0ba56")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8rbpu"]
+atlas = ExtResource("1_0ba56")
+region = Rect2(48, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fuudy"]
+atlas = ExtResource("1_0ba56")
+region = Rect2(96, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xylue"]
+atlas = ExtResource("1_0ba56")
+region = Rect2(144, 0, 48, 48)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qke16"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vsvp5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8rbpu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fuudy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xylue")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ienac"]
+atlas = ExtResource("2_fuudy")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_irxln"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ienac")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5rrr5"]
+atlas = ExtResource("3_xylue")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_or7tv"]
+atlas = ExtResource("3_xylue")
+region = Rect2(48, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_133si"]
+atlas = ExtResource("3_xylue")
+region = Rect2(96, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_esopp"]
+atlas = ExtResource("3_xylue")
+region = Rect2(144, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b10nm"]
+atlas = ExtResource("4_tj5wv")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fhlu0"]
+atlas = ExtResource("4_tj5wv")
+region = Rect2(48, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bktio"]
+atlas = ExtResource("4_tj5wv")
+region = Rect2(96, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nrlyp"]
+atlas = ExtResource("4_tj5wv")
+region = Rect2(144, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_44tr1"]
+atlas = ExtResource("4_tj5wv")
+region = Rect2(192, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pmxqn"]
+atlas = ExtResource("4_tj5wv")
+region = Rect2(240, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gs5q7"]
+atlas = ExtResource("4_tj5wv")
+region = Rect2(288, 0, 48, 48)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2fq21"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5rrr5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_or7tv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_133si")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_esopp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b10nm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fhlu0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bktio")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nrlyp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_44tr1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pmxqn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gs5q7")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
 [node name="Level" type="Node2D" unique_id=1602582843]
