@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://dfq2fvutr3j3h"]
+
+[ext_resource type="PackedScene" uid="uid://b5gexpi2klolc" path="res://Scenes/Levels/player.tscn" id="1_jqmhs"]
+[ext_resource type="Texture2D" uid="uid://dasgquqdfp2ti" path="res://Assets/NeonDash_Flat2D_Assets/Art/Tiles/tileset_atlas_3x1_64.png" id="1_u3rbo"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_70edh"]
+texture = ExtResource("1_u3rbo")
+0:0/size_in_atlas = Vector2i(4, 4)
+0:0/0 = 0
+4:0/size_in_atlas = Vector2i(4, 4)
+4:0/0 = 0
+8:0/size_in_atlas = Vector2i(4, 4)
+8:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_jqmhs"]
+sources/0 = SubResource("TileSetAtlasSource_70edh")
+
+[node name="Level one" type="Node2D" unique_id=1337589562]
+
+[node name="Background" type="Node2D" parent="." unique_id=134807070]
+
+[node name="Ground" type="TileMapLayer" parent="." unique_id=1686848451]
+scale = Vector2(64, 64)
+tile_map_data = PackedByteArray(0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0)
+tile_set = SubResource("TileSet_jqmhs")
+
+[node name="Player" parent="." unique_id=35123929 instance=ExtResource("1_jqmhs")]
+position = Vector2(-36, -53)
+
+[node name="Hazards" type="Node2D" parent="." unique_id=1944200614]
+
+[node name="Powerups" type="Node2D" parent="." unique_id=1626124279]
+
+[node name="Enemies" type="Node2D" parent="." unique_id=1094521122]
+
+[node name="FinishObjects" type="Node2D" parent="." unique_id=2000737508]
