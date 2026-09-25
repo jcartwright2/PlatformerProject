@@ -6,6 +6,7 @@
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_70edh"]
 texture = ExtResource("1_u3rbo")
 0:0/size_in_atlas = Vector2i(4, 4)
+0:0/next_alternative_id = 4
 0:0/0 = 0
 4:0/size_in_atlas = Vector2i(4, 4)
 4:0/0 = 0
@@ -23,6 +24,7 @@ sources/0 = SubResource("TileSetAtlasSource_70edh")
 scale = Vector2(64, 64)
 tile_map_data = PackedByteArray(0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0)
 tile_set = SubResource("TileSet_jqmhs")
+collision_enabled = false
 
 [node name="Player" parent="." unique_id=35123929 instance=ExtResource("1_jqmhs")]
 position = Vector2(-36, -53)
