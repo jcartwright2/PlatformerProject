@@ -86,7 +86,7 @@ position = Vector2(0, 1)
 position = Vector2(-5.9604645e-08, 0)
 scale = Vector2(0.9583333, 0.9166666)
 sprite_frames = SubResource("SpriteFrames_irxln")
-frame_progress = 0.45766434
+frame_progress = 0.87748915
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1272826105]
 shape = SubResource("CircleShape2D_qke16")
@@ -94,8 +94,9 @@ shape = SubResource("CircleShape2D_qke16")
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="." unique_id=1956236594]
 position = Vector2(-49, -3)
 sprite_frames = SubResource("SpriteFrames_qke16")
-frame_progress = 0.25928763
+frame_progress = 0.3262897
 
 [node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="." unique_id=2109778416]
 position = Vector2(79, -3)
 sprite_frames = SubResource("SpriteFrames_2fq21")
+frame_progress = 0.22821942
