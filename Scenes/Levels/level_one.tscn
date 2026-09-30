@@ -36,3 +36,5 @@ position = Vector2(-36, -53)
 [node name="Enemies" type="Node2D" parent="." unique_id=1094521122]
 
 [node name="FinishObjects" type="Node2D" parent="." unique_id=2000737508]
+
+[node name="Node" type="Node" parent="." unique_id=504753783]
